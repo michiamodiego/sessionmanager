@@ -1,0 +1,7 @@
+create table session (
+	id varchar(255) not null primary key, 
+	creation_time int(11) unsigned, 
+	timeout_interval int(11) unsigned, 
+	last_update_time int(11) unsigned, 
+	data blob
+);
